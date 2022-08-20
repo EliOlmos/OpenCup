@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;600;900&family=Roboto+Serif:opsz,wght@8..144,400;8..144,700;8..144,900&display=swap');
+
+/*font-family: 'Inknut Antiqua', serif;
+font-family: 'Roboto Serif', serif;*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+.logo {
+    display: inline;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, rgb(207, 232, 240), rgb(95, 161, 184), darkblue);
+    justify-content: space-between;
+    top: 0;
+    align-items: center;
+
+}
+
+.header a:hover, .footer a:hover{
+    color: rgb(60, 233, 44);
+    font-weight: bold;
+  }
+
+nav {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+header form {
+    margin: 30px;
+}
+
+a:hover {
+    color: rgb(93, 240, 93);
+}
+
+
+.items-menu {
+    display: inline;
+    font-size: 20px;
+    font-weight: 600px;
+
+}
+
+.items-menu a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.titulo-html {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400px;
+    color: rgb(64, 197, 64);
+
+}
+
+.lupa {
+    background-image: url(../img/lupa.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    width: 40px;
+
+}
+
+
+.imagen-fondo {
+    display: flex;
+    margin: 0;
+    background-image: url(../img/encabezado.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    flex-direction: column;
+
+
+}
+
+.banner video {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    width: 100%;
+    background-image: url(/img/video-opencup.mp4);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border: white 2px solid;
+}
+
+
+h2 {
+
+    align-items: center;
+    text-align: center;
+    font-family: Roboto;
+    color: white;
+    font-size: 30px;
+    font-weight: 400px;
+
+}
+
+.imagenes-texto {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgIzq {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border: white 4px solid;
+    border-radius:10px;
+
+}
+
+.texto-introductorio {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-family: Roboto;
+    color: white;
+    padding: 20px;
+    flex-direction: column;
+    background-color: #80808073;
+}
+
+.imgDer {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border: white 4px solid;
+    border-radius:10px;
+
+
+}
+
+.footer {
+    display: flex;
+    background-image: linear-gradient(to right, rgb(207, 232, 240), rgb(95, 161, 184), darkblue);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: Inknut;
+    color: white;
+
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: Inknut;
+}
+
+.tituloMapa {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    flex-direction:column;
+    justify-content: space-between;
+    border: white 4px solid;
+    border-radius: 5%;
+}
+
+.tituloMapa h3{
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    font-weight: bold;
+    background-color: #80808073;
+}
+
+.tituloMapa iframe{
+    align-items: center;
+}
+
+.redes {
+    color: white;
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding-left: 0px;
+    margin-bottom: 5px;
+
+}
+
+h4 {
+    display: inline;
+    color: white;
+    font-size: 16px;
+    font-weight: 100px;
+    justify-content: space-between;
+    margin-right: 30px;
+
+}
+
+.formulario {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border: white;
+    font-weight: bold;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: row;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.formulario h3 {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-family: Roboto;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.formulario h4 {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.items-formulario {
+    display: inline;
+    margin: 30px;
+    padding: 30px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    border: white 3px solid;
+    border-radius: 10px;
+    background-color: #808080a6;
+
+}
+
+.appFlobi {
+    display: flex;
+
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border: white 4px solid;
+    text-align: center;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.appFlobi img {
+    border: white 2px solid;
+
+}
+
+.appFlobi h4 {
+    font-size: 20px;
+}
+
+.galeriaVideos {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.galeriaVideos video {
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border: white 2px solid;
+    padding: auto;
+}
+
+.galeriaFotos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.galeriaFotos img {
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    border: white 4px solid;
+    overflow: hidden;
+}
+
+.tabla-ganadores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    margin: 20px;
+    padding: 20px;
+    font-family: Roboto;
+    color: white;
+    font-size: 16px;
+    font-weight: 400px;
+    border: white 4px solid;
+    justify-content: space-evenly;
+    border-collapse: collapse;
+}
+
+table th {
+    margin: 5px;
+    padding: 5px;
+    border: white 4px solid;
+}
+
+table tr {
+    margin: 5px;
+    padding: 5px;
+    border: white 4px solid;
+}
+
+table tr {
+    margin: 5px;
+    padding: 5px;
+    border: white 4px solid;
+}
+
+.grid-container {
+    max-width: 850px;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+
+}
+
+.grid-container img {
+    height: 250px;
+    border-radius: 10px;
+    border: white 3px solid;
+}
+
+@media(max-width:1065px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:750px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width:634px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .texto-introductorio {
+        font-size: 12px;
+    }
+
+    .imgIzq {
+        display: flex;
+        height: 150px;
+        width: 150px;
+        border: white 2px solid;
+
+    }
+
+    .imgDer {
+        display: flex;
+        height: 150px;
+        width: 150px;
+        border: white 2px solid;
+
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:520px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media(max-width:335px) {
+    .imgIzq {
+        display: flex;
+        height: 100px;
+        width: 100px;
+        border: white 2px solid;
+        flex-direction:column;
+    }
+
+    .imgDer {
+        display: flex;
+        height: 100px;
+        width: 100px;
+        border: white 2px solid;
+        flex-direction:column;
+    }
+}
